@@ -12,7 +12,7 @@ console.log(filePath);
 const base = path.basename('/tmp/secret-files/secret.txt');
 console.log(base);
 
-const filename = path.basename('/tmp/secret-files/secret.txt', '.txt');
+const filename = path.basename('/tmp/secret-files/secret.txt', '.txt'); // secret
 console.log(filename);
 
 const extension = path.extname('/tmp/file.js');
